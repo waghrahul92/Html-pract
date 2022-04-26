@@ -1,0 +1,39 @@
+.upcoming_mobiles
+{
+    display: inline-block;
+    font-size:20px;
+    color: black;
+    height: 50px;
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.grid-container_body
+{
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+.upcoming_mobiles2
+{
+    display: inline-block;
+    font-size:15px;
+    color: rgb(245, 136, 11);
+    height: 50px;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.grid-container_mobile_body
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 306px);
+    grid-template-rows: 500px ;
+     gap: 15px;
+     padding-left: 36px;
+     padding-top: 10px;
+}
+
+.grid-container_mobile_body>div{
+    background-color:white;
+    border: 1px solid rgb(69, 66, 66);
+}
