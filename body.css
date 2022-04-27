@@ -112,3 +112,22 @@
     width: 60px;
     background-color: rgb(10, 159, 10);
 }
+.ninetyone
+{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: wheat;
+}
+.spec
+{
+    font-size: 13px;
+    padding-left: 10px;
+    color: wheat;
+}
+.score
+{
+    font-size: 13px;
+    padding-left: 10px;
+    
+}
