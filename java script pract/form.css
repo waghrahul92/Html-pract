@@ -1,0 +1,90 @@
+.form
+{
+    margin: 0;
+    height: 200px;
+    /* width: 100%; */
+    border: 2px solid black;
+}
+.form_info
+{
+    /* width: 75%; */
+    margin: 10%;
+    height:180px ;
+    margin-top: 8px;
+    border: 2px solid gray;
+    background-color: rgb(167, 238, 236);
+    visibility: visible;
+
+
+}
+
+
+.form-group{
+    width: 400px;
+}
+
+.name
+{   
+    padding: 18px;
+    text-align: CENTER;
+    padding-top: 30px;
+    
+}
+.name_style
+{
+text-align: left;
+height: 20px;
+width: 200px;
+outline: none;
+    border-radius: 10px;
+    border: 1px solid grey;
+
+}
+
+.contact
+{
+    padding: 5px;
+    text-align: center; 
+     
+}
+.contact_style
+{
+text-align: left;
+height: 20px;
+width: 200px;
+outline: none;
+    border-radius: 10px;
+    border: 1px solid grey;
+
+}
+.add
+{
+    padding: 20px;
+    text-align: center;
+    padding-left: 200px;
+    
+    
+}
+.update
+{
+   visibility: hidden;
+   text-align: center;
+   padding: 20px;
+}
+
+.add_button
+{
+    width: 60px;
+} 
+.button_grid
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.img_plus
+{
+    width: 20px;
+    margin-left: 95%;
+    margin-top: 10px;
+
+}

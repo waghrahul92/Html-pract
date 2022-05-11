@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="table-form.css">
+    <script src="jquery-3.5.0.js"></script>
+    <script defer src="table-form.js"></script>
+</head>
+
+<body>
+    
+    <div>
+           
+        
+        <table class="table_class" id="table-id">
+           
+                <div><img class="img_class" id="img_id" src="img/pluse.png" alt=""></div>   
+        
+            <tr id="table_head">
+                <th>MONTH </th>
+                <th>EXPENS1</th>
+                <th>EXPENS2</th>
+                <th>EXPENS3</th>
+                <th>EXPENS4</th>
+            </tr>           
+            <!-- <tr>
+                <td>APRIL</td>
+                <td><input class="inputClass-expens1" type="text" id="expens1-id4"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens2" type="text" id="expens2-id4"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens3" type="text" id="expens3-id4"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens4" type="text" id="expens4-id4"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+            </tr>
+            <tr>
+                <td>MAY</td>
+                <td><input class="inputClass-expens1" type="text" id="expens1-id5"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens2" type="text" id="expens2-id5"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens3" type="text" id="expens3-id5"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens4" type="text" id="expens4-id5"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+            </tr>
+            <tr>
+                <td>JUN</td>
+                <td><input class="inputClass-expens1" type="text" id="expens1-id6"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens2" type="text" id="expens2-id6"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens3" type="text" id="expens3-id6"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens4" type="text" id="expens4-id6"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+            </tr>
+            <tr>
+                <td>JULY</td>
+                <td><input class="inputClass-expens1" type="text" id="expens1-id7"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens2" type="text" id="expens2-id7"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens3" type="text" id="expens3-id7"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens4" type="text" id="expens4-id7"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+            </tr>
+            <tr>
+                <td>AUGEST</td>
+                <td><input class="inputClass-expens1" type="text" id="expens1-id8"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens2" type="text" id="expens2-id8"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens3" type="text" id="expens3-id8"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens4" type="text" id="expens4-id8"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+            </tr>
+            <tr>
+                <td>SEPTMBER</td>
+                <td><input class="inputClass-expens1" type="text" id="expens1-id9"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens2" type="text" id="expens2-id9"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens3" type="text" id="expens3-id9"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens4" type="text" id="expens4-id9"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+            </tr>
+            <tr>
+                <td>OCOMBER</td>
+                <td><input class="inputClass-expens1" type="text" id="expens1-id10"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens2" type="text" id="expens2-id10"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens3" type="text" id="expens3-id10"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens4" type="text" id="expens4-id10"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+            </tr>
+            <tr>
+                <td>NOVEMBER</td>
+                <td><input class="inputClass-expens1" type="text" id="expens1-id11"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens2" type="text" id="expens2-id11"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens3" type="text" id="expens3-id11"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens4" type="text" id="expens4-id11"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+            </tr>
+            <tr>
+                <td>DECEMBER</td>
+                <td><input class="inputClass-expens1" type="text" id="expens1-id12"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens2" type="text" id="expens2-id12"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens3" type="text" id="expens3-id12"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                <td><input class="inputClass-expens4" type="text" id="expens4-id12"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+            </tr>  -->
+            <tr id="total_id">
+                <td class="span">TOTAL</td>
+                <td><span class="inputClass-total-expens" type="text" id="id-total-expens1"></span></td>
+                <td><span class="inputClass-total-expens" type="text" id="id-total-expens2"></span></td>
+                <td><span class="inputClass-total-expens" type="text" id="id-total-expens3"></span></td>
+                <td><span class="inputClass-total-expens" type="text" id="id-total-expens4"></span></td>
+            </tr>
+            <tr>
+                <td class="span">AVERGE</td>
+                <td><span class="inputClass-averge-expens" type="text" id="id-averge-expens1"></span></td>
+                <td><span class="inputClass-averge-expens" type="text" id="id-averge-expens2"></span></td>
+                <td><span class="inputClass-averge-expens" type="text" id="id-averge-expens3"></span></td>
+                <td><span class="inputClass-averge-expens" type="text" id="id-averge-expens4"></span></td>
+            </tr>
+
+
+        </table>
+    </div>
+    <div class="grand_div">
+        <span> GRAND TOTAL  </span>
+        <input class="grand_class" type="text" id="grand_total_id">
+    </div>
+    <div class="grand_div">
+        <span> GRAND AVERAGE</span>
+        <input class="grand_class" type="text" id="grand_avg_id">
+    </div>
+</body>
+
+</html>

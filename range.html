@@ -6,13 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="range1.css">
+    <script defer src="range.js"></script>
 </head>
 <body>
-   
+  
  <div class="sss">
     <div class="slidecontainer">
     <input type="range" max="50" min="1" value="50" class="slider">
     </div>
+ </div>
+ <div class="grid-container-color">
+    <div >
+     <input type="text" onclick="color_change('red1')" class="red" id="red1">
+    </div>
+    <div >
+        <input type="text" onclick="color_change('blue1')" class="blue" id="blue1">
+    </div>
+    <div >
+        <input type="text" onclick="color_change('green1')" class="green" id="green1">
+    </div>
+    <div >
+        <input type="text" onclick="color_change('black1')" class="black" id="black1">
+    </div>
+ </div>
+ <div>
+     <input type="text" class="result" id="result1">
  </div>
 </body>
 </html>

@@ -1,0 +1,32 @@
+.let_count
+{
+margin: 3px;
+
+
+}
+input#a 
+{
+    background-color: yellowgreen;
+}
+input#cal_a 
+{
+    background-color: yellowgreen;
+}
+
+input#b 
+{
+    background-color: pink;
+}
+input#cal_b 
+{
+    background-color: pink;
+}
+
+input#z 
+{
+    background-color: skyblue;
+}
+input#cal_z
+{
+    background-color: skyblue;
+}

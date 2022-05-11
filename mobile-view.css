@@ -1,0 +1,16 @@
+@media only screen and (max-width: 768px) {
+    :root{
+        --center1: 
+    }
+    .grid-container_mobile_body
+    {
+        grid-template-columns: 320px 320px;
+        grid-template-rows: 480px ;
+        align-items: center;
+        justify-items: center;
+        
+    }
+    
+    
+    
+}
